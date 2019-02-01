@@ -1,0 +1,40 @@
+#glyphjt{
+    font-size: 75px;
+	color:darkorange;       
+    display:block;
+    text-align:center;
+}
+#desc{
+	height:175px;
+}
+#jtron1:hover{
+	box-shadow: 0px 10px 60px -15px rgba(0,0,0,0.75);
+}
+#jtron1{
+	background-color:#c4c4c4;
+}
+#jtron2{
+	background-color:#c4c4c4;
+}
+.btn{
+	margin-top:5px;
+	color:darkorange;
+}
+#tcks{
+	background-color:#222222;
+}
+#labelchangecolor{
+	color:darkorange;
+}
+a:link{
+	color:darkorange;
+}
+#LogoImage:hover{
+	box-shadow: 0px 10px 60px -15px rgba(0,0,0,0.75);
+}
+#LogoImage{
+	margin-left:5px;
+}
+.container{
+	background-color:#e0e0e0;
+}

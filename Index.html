@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Brooklyn Bridge Festival</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container">
+
+	<nav class="navbar navbar-inverse">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+		  <a class="navbar-brand" href="#"  style="color:darkorange">BrooklynBridge Film-Festival</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav">
+		  <li><a href="#home">Home</a></li>
+		  <li><a href="#informations">Informations</a></li>
+		  <li><a href="#tickets">Tickets</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		</ul>
+	  </div>
+	</nav>
+
+	<div id="home">
+	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		  <li data-target="#myCarousel" data-slide-to="1"></li>
+		  <li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+		  <div class="item active">
+			<img src="Images/BWImages/Image1BW.jpg" alt="Image1" style="width:100%;">
+			<div class="carousel-caption">
+				<h2 style="color:darkorange">BrooklynBridge Film-Festival</h2>
+				<p style="font-weight:bold">Tickets now for sale!</p>
+			 </div>
+		  </div>
+		  <div class="item">
+			<img src="Images/BWImages/Image2BW.jpg" alt="Image2" style="width:100%;">
+		  </div>		
+		  <div class="item">
+			<img src="Images/BWImages/Image3BW.jpg" alt="Image3" style="width:100%;">
+		  </div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		  <span class="glyphicon glyphicon-chevron-left"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+		  <span class="glyphicon glyphicon-chevron-right"></span>
+		  <span class="sr-only">Next</span>
+		</a>
+	  </div><br>
+	</div>
+	  
+	<div id="informations">
+	<h2 style="text-align:center">Informations</h2>
+	  	<div class="row">		
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="jumbotron" id="jtron1">
+				  <span class="glyphicon glyphicon-print" id="glyphjt"></span>
+				  <h2>Capacity</h2>
+				  <p class="lead" id="desc">Capacity of 5000+ seats will be enough to allow everyone to relax and enjoy the movie in the best way.</p>
+					<a class="btn btn btn-lg" href="#informations" role="button">Learn more</a>
+				  </p>
+				</div>
+			</div>		
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="jumbotron" id="jtron1">
+				  <span class="glyphicon glyphicon-facetime-video" id="glyphjt"></span>
+				  <h2>Equipment</h2>
+				  <p class="lead" id="desc">The $3500 budget has contributed to providing the highest quality equipment so you can enjoy.</p>
+					<a class="btn btn btn-lg" href="#informations" role="button">Learn more</a>
+				  </p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="jumbotron" id="jtron1">
+				  <span class="glyphicon glyphicon-film" id="glyphjt"></span>
+				  <h2>Movies</h2>
+				  <p class="lead" id="desc">Many years of experience and dedication to this festival bring you what we wanted. Over the 150 movies.</p>
+					<a class="btn btn btn-lg" href="#informations" role="button">Learn more</a>
+				  </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="tickets">
+	<h2 style="text-align:center">Tickets</h2>
+		<div class="jumbotron" id="tcks">
+			<form>
+				<div class="form-group">
+				  <label for="fname" id="labelchangecolor">First name:</label>
+				  <input type="text" class="form-control" id="fname" placeholder="Enter first name" name="fname">
+				</div>
+				<div class="form-group">
+				  <label for="lname" id="labelchangecolor">Last name:</label>
+				  <input type="text" class="form-control" id="lname" placeholder="Enter last name" name="lname">
+				</div>
+					<div class="form-group">
+				  <label for="email" id="labelchangecolor">E-mail adress:</label>
+				  <input type="email" class="form-control" id="email" placeholder="Enter e-mail adress" name="email">
+				</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
+	</div>
+
+	<div id="contact">
+	<h2 style="text-align:center">Contact</h2>
+		<footer class="page-footer font-small teal pt-4">
+			<div class="container-fluid text-center text-md-left">
+				<p style="font-size:20px;">Feel free to follow us on:</p>
+				<span>
+					<a href="https://www.facebook.com/"><img  src="Images/Logos/facebook.png" alt="facebook" width="5%" id="LogoImage"></a>
+					<a href="https://www.instagram.com/"><img src="Images/Logos/instagram.png" alt="instagram" width="5%" id="LogoImage"></a>
+					<a href="https://twitter.com/"><img src="Images/Logos/twitter.png" alt="twitter" width="5%" id="LogoImage"></a>
+					<a href="https://www.snapchat.com/"><img src="Images/Logos/snapchat.png" alt="snapchat" width="5%" id="LogoImage"></a>
+				</span>
+				  <hr >
+			</div>
+		<div class="footer-copyright text-center py-3">© 2019 Copyright:
+		  <a href="https://www.facebook.com/JoXanko" style="color:darkorange">JoXanko</a>
+		</div>
+		</footer>
+	</div>
+	
+</div> 
+</body>
+</html>
